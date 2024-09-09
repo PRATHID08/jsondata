@@ -1,0 +1,63 @@
+[
+    {
+        "courseId": "C101",
+        "title": "Introduction to Web Development",
+      "instructor": "John Doe",
+      "duration": "10 hours",
+      "rating": 4.5,
+      "category": "Web Development",
+      "price": "$50",
+      "enrolled": "2500"
+    },
+    {
+      "courseId": "C102",
+      "title": "Advanced JavaScript",
+      "instructor": "Jane Smith",
+      "duration": "12 hours",
+      "rating": 4.8,
+      "category": "Programming",
+      "price": "$75",
+      "enrolled": "1800"
+    },
+    {
+      "courseId": "C103",
+      "title": "Data Science Fundamentals",
+      "instructor": "Michael Brown",
+      "duration": "15 hours",
+      "rating": 4.7,
+      "category": "Data Science",
+      "price": "$100",
+      "enrolled": "3000"
+    },
+    {
+      "courseId": "C104",
+      "title": "Machine Learning Basics",
+      "instructor": "Emily White",
+      "duration": "20 hours",
+      "rating": 4.6,
+      "category": "Machine Learning",
+      "price": "$120",
+      "enrolled": "2800"
+    },
+    {
+      "courseId": "C105",
+      "title": "Introduction to Cloud Computing",
+      "instructor": "David Green",
+      "duration": "8 hours",
+      "rating": 4.4,
+      "category": "Cloud Computing",
+      "price": "$65",
+      "enrolled": "1500"
+    },
+    {
+      "courseId": "C106",
+      "title": "Cybersecurity Essentials",
+      "instructor": "Alice Black",
+      "duration": "14 hours",
+      "rating": 4.9,
+      "category": "Cybersecurity",
+      "price": "$80",
+      "enrolled": "3200"
+    }
+  ]
+  

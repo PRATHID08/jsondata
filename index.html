@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Online Courses</h1>
+
+    <!-- Course List Display -->
+    <div id="course-container"></div>
+
+    <!-- Sorting and Filtering Options -->
+    <div>
+        <label for="sort">Sort by: </label>
+        <select id="sort">
+            <option value="title">Title</option>
+            <option value="rating">Rating</option>
+            <option value="price">Price</option>
+            <option value="enrolled">Enrolled</option>
+        </select>
+
+        <label for="filter">Filter by Category: </label>
+        <input type="text" id="filter" placeholder="e.g., Web Development">
+    </div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination">
+        <button id="prev">Previous</button>
+        <span id="page-info">Page 1</span>
+        <button id="next">Next</button>
+    </div>
+
+    <!-- Sign-up Form -->
+    <h2>Sign Up for a Course</h2>
+    <form id="signup-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="course-id" placeholder="Course ID" required>
+        <button type="submit">Sign Up</button>
+        <div id="form-feedback"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
